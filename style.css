@@ -12,6 +12,7 @@ body {
     background-color: red;
     grid-column: 1;
     grid-row: 1 / 3;
+    
 }
 
 .header {
@@ -46,4 +47,11 @@ body {
     grid-row-end: 4;
     grid-column-start: 3;
     margin: 25px;
+}
+
+.menu a {
+    display: list-item;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 20px;
 }
