@@ -21,6 +21,23 @@ body {
 .header {
     background: rgb(162,166,166);
     grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-element {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.searchBar {
+    display: inline-block;
+}
+
+.searchField {
+    border: solid 1px rgba(236,235,232,1);
+    border-radius: 50px;
+    box-shadow: 2px 3px 3px rgb(39, 38, 38);
 }
 
 .content {
@@ -42,6 +59,7 @@ body {
     text-align: center;
     justify-content: center;
     margin: 15px;
+    border: 1px solid rgb(71, 71, 71);
     border-radius: 20px;
     box-shadow: -8px 3px 3px rgb(39, 38, 38);
     width: 100%;
