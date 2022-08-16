@@ -1,5 +1,6 @@
 body {
     height: 100%;
+    overflow: hidden;
 }
 .container {
     display: grid;
@@ -7,6 +8,18 @@ body {
     grid-template-rows: 1fr 4fr;
     height: 100vh;
     background: whitesmoke;
+    margin: 0;
+}
+.hi {
+  color: black;
+  font-family: Verdana;
+  text-shadow: #FF2E83;
+}
+
+.name {
+  color: #FF2E83;
+  font-family: verdana;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
 }
 
 .sidebar {
@@ -20,7 +33,7 @@ body {
     grid-row: 1;
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 15px;
 }
 
 .left-element {
@@ -60,7 +73,7 @@ body {
     background: white;
 }
 
-.projects:hover {
+.projects:hover{
     box-shadow: -10px 0px 13px -7px rgb(247, 56, 174), 10px 0px 13px -7px rgb(247, 56, 174), 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
@@ -72,8 +85,18 @@ body {
     border: 1px solid whitesmoke;
     display: grid;
     justify-content: center;
+    text-align: center;
     background: white;
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.14);
+}
+
+.announce {
+    padding: 10px;
+}
+
+.trends {
+  justify-content: center;
+    text-align: center;
 }
 
 .menu p {
@@ -101,6 +124,7 @@ body {
     font-weight: bold;
     color: black;
     text-shadow: 1px 1px 2px rgb(7, 6, 6); 
+    padding-bottom: 15px;
 }
 
 .menu p:hover {
@@ -309,4 +333,15 @@ body {
       opacity: 1;
     }
   }
+
+  @import url('https://fonts.googleapis.com/css?family=Ultra');
+.text{
+    font-family: Ultra, serif;
+    text-align: center;
+    font-size: 75px;
+    letter-spacing: -5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(152, 42, 132, 0.97);
+    text-shadow: rgb(130, 38, 107) 2px 2px 2px;
+}
 
