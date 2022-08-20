@@ -1,6 +1,7 @@
 body {
-    height: 100%;
+    width: 100%;
     overflow: hidden;
+    margin: auto;
 }
 .container {
     display: grid;
@@ -9,6 +10,7 @@ body {
     height: 100vh;
     background: whitesmoke;
     margin: 0;
+    width: 100%;
 }
 .hi {
   color: black;
